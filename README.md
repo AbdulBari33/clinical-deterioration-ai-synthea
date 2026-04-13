@@ -92,7 +92,7 @@ Suggested plots (stored under `figures/`):
 
 - Feature distributions (age, comorbidities, encounter counts)
 - Target distribution (class balance)
-- Correlation / feature importance plots
+- Correlation/feature importance plots
 - ROC & Precision–Recall curves for each model
 - Confusion matrices for baseline vs LSTM
 ## FastAPI Service
@@ -104,9 +104,6 @@ This project also includes a modular FastAPI backend that exposes the clinical d
 ```bash
 .\.venv\Scripts\python.exe -m uvicorn clinical_deterioration_ai.api:app --reload --app-dir src
 
-## Project Structure
-
-```text
 clinical-deterioration-ai-synthea/
 ├── data/
 ├── notebooks/
