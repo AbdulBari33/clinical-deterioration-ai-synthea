@@ -95,6 +95,7 @@ Suggested plots (stored under `figures/`):
 - Correlation/feature importance plots
 - ROC & Precision–Recall curves for each model
 - Confusion matrices for baseline vs LSTM
+
 ## FastAPI Service
 
 This project also includes a modular FastAPI backend that exposes the clinical deterioration prediction logic through REST endpoints.
@@ -103,18 +104,3 @@ This project also includes a modular FastAPI backend that exposes the clinical d
 
 ```bash
 .\.venv\Scripts\python.exe -m uvicorn clinical_deterioration_ai.api:app --reload --app-dir src
-
-clinical-deterioration-ai-synthea/
-├── data/
-├── notebooks/
-├── src/
-│   └── clinical_deterioration_ai/
-│       ├── __init__.py
-│       ├── predictor.py
-│       ├── preprocess.py
-│       ├── model.py
-│       ├── api.py
-│       └── utils.py
-├── pyproject.toml
-├── README.md
-└── docker-compose.yml
