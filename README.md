@@ -101,9 +101,9 @@ Suggested plots (stored under `figures/`):
 This project also includes a modular FastAPI backend that exposes the clinical deterioration prediction logic through REST endpoints.
 
 ### Run the API
-
 ```bash
 .\.venv\Scripts\python.exe -m uvicorn clinical_deterioration_ai.api:app --reload --app-dir src
+```
 
 
 ## Project Structure
